@@ -6,6 +6,7 @@ This is a Next.js project that allows users to manage skills through a simple in
 ## Features
 
 - Add Skills: Users can add new skills with a title and description.
+- Styling: Tailwind CSS is used for styles.
 - CRUD Operations: Perform Create, Read, Update, and Delete operations on skills.
 - Form Validation: Zod is used for form validation to ensure data integrity.
 - Database: MongoDB Atlas is used as the database to store skill information.
