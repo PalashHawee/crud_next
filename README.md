@@ -32,6 +32,7 @@ Install the Dependencies
  npm install
 ```  
 Set up your environment variables in .env file
+
 MONGODB_URI=<your-mongodb-atlas-connection-string>
 
 or
