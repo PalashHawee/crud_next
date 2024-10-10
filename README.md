@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# NEXT CRUD
 
-First, run the development server:
+This is a Next.js project that allows users to manage skills through a simple interface. Users can add skills with a title and description, as well as perform CRUD (Create, Read, Update, Delete) operations on these skills.
+
+## Features
+
+- Add Skills: Users can add new skills with a title and description.
+- CRUD Operations: Perform Create, Read, Update, and Delete operations on skills.
+- Form Validation: Zod is used for form validation to ensure data integrity.
+- Database: MongoDB Atlas is used as the database to store skill information.
+
+
+## Tech Stack
+
+**Next.js** **Zod** **MongoDB Atlas** 
+
+
+
+
+## Installation
+
+Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+ git clone <repository-url>
+cd <repository-directory>
+
+```
+Install the Dependencies
+  ```bash
+ npm install
+```  
+Set up your environment variables
+MONGODB_URI=<your-mongodb-atlas-connection-string>
+
+or
+
+MONGODB_URI=mongodb+srv://username:password@cluster0.dzqz5.mongodb.net/your database name
+
+## Finally Run the project follwing the steps
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+  cd my-project
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start the server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+  npm run dev -- -p 5000
+```
+The project will run on 5000 port
